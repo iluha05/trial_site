@@ -1,0 +1,54 @@
+
+
+/* Основные спецификации касающиеся всех элементов */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
+/* ссылка с трефами */
+.Tref {
+  font-size: 500px;
+  color: #000;
+  text-align: center;
+}
+.Tref_a {
+  position: relative;
+}
+
+a.Tref_a:hover {
+  top: 10px;
+  left: 10px;
+  text-shadow: -5px -5px 10px #555;
+}
+.Piki {
+  font-size: 500px;
+  position: relative;
+}
+i.Piki:hover {
+  top: -10px;
+  left: -10px;
+  text-shadow: 5px 5px 10px #000
+}
+.Cher {
+  font-size: 500px;
+  text-align: center;
+  position: relative;
+  margin-left: 225px;
+  color: red;
+}
+.Bube {
+  font-size: 500px;
+  text-align: right;
+  position: relative;
+  margin-left: 225px;
+  color: red;
+}
